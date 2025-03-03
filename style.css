@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    background-color: #f4f7ff;
+
+}
+
+.nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin: 2.75rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.nav-left {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.nav-right {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.375rem;
+}
+
+.check-box {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.check-box-number {
+    color: #1e1e1e;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.logo-text-1 {
+    color: #00303c;
+    font-size: 35.67px;
+    font-weight: 500;
+}
+.logo-text-2{
+    font-weight: 700;
+}
+
+.theme-btn{
+    cursor: pointer;
+}
+
