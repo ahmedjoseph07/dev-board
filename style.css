@@ -80,6 +80,16 @@ body {
     gap: 20px;
     padding: 20px;
 }
+.main-blog{
+    max-width: 1920px;
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
 
 .hero {
     display: flex;
@@ -347,4 +357,8 @@ body {
     text-align: left;
     opacity: .7;
     margin-bottom: 10px;
+}
+
+.blog-link{
+    text-decoration: none;
 }

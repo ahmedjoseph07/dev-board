@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div id="nav-left" class="nav-left">
+                <div><img src="assets/logo.png" alt=""></div>
+                <div class="logo-text-1">Dev<span class="logo-text-2">Board</span></div>
+            </div>
+            <div id="nav-right" class="nav-right">
+                <a class="blog-link" href="/index.html"><button class="btn" >Back to Desk</button></a>
+            </div>
+        </nav>
+    </header>
+    <main class="main-blog">
+        <section class="section-left">
+            <h2>Question-1: What are the different ways to select an element in the DOM?</h2>
+            <p> getElementById("id"):-Selects a single element by its ID. <br>
+                getElementsByClassName("class"):-Selects multiple elements with the same class. <br>
+                getElementsByTagName("tag"):-Selects elements by tag name. <br>
+                querySelector("selector"):-Selects the first element that matches a CSS selector. <br>
+                querySelectorAll("selector"):-Selects all elements that match a CSS selector (NodeList).</p>
+        </section>
+        <section class="section-left">
+            <h2>Question-2: What is the difference between innerHTML, innerText, and textContent ?</h2>
+            <p> innerHTML:- Gets the HTML content inside an element, including tags. <br>
+                innerText:- Retrieves only the visible text, ignoring hidden elements<br>
+                textContent:- Gets or sets all text inside an element, including hidden text, but cannot parse HTML tags.</p>
+        </section>
+        <section class="section-left">
+            <h2>Question-3: What is event delegation in the DOM?</h2>
+            <p> event delegation:- When a parent element handles events for its child elements using event bubbling.</p>
+        </section>
+        <section class="section-left">
+            <h2>Question-4: What is event bubbling in the DOM?</h2>
+            <p> event bubbling:- When an event starts from the target element and propagates up to its parents.</p>
+        </section>
+        <section class="section-left">
+            <h2>Question-5: How do you create, add, and remove elements using JavaScript?</h2>
+            <p> create an element:- document.createElement("tag"). <br>
+                add it to the DOM:- use parentElement.appendChild(newElement). <br>
+                remove an element:- use parentElement.removeChild(element).</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body> 
+</html>
