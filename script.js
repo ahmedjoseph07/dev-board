@@ -39,9 +39,7 @@ clearBtn.addEventListener("click", function () {
     let history = document.querySelector(".history")
 
     if (history) {
-        history.innerHTML = `
-        <p class="history-para">All Activities are cleared, Complete any task to add to the log</p>
-        `;
+        history.innerHTML = ``;
     }
 })
 

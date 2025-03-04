@@ -208,6 +208,7 @@ body {
 }
 
 .section-right {
+    width: 366px;
     background-color: #fff;
     border-radius: 16px;
     padding: 20px;
